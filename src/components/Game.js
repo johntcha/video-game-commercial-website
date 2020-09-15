@@ -1,12 +1,13 @@
 import React from 'react';
-import Carousel from './Carousel';
+import Tabs from './Tabs';
 import './Game.css';
 
 function Game(){
 	return(
 		<div className="game">
+			<h2>TOWERS</h2>
 			<div className="game_wrapper">
-				<Carousel />
+				<Tabs />
 			</div>
 		</div>
 		)

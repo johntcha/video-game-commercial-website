@@ -1,4 +1,13 @@
 .game {
   padding: 4rem;
   background: #fff;
+  border-bottom: solid 6px olivedrab;
+}
+
+h2{
+	text-align: center;
+}
+
+img{
+	height: 200px;
 }
