@@ -2,6 +2,8 @@
   padding: 4rem;
   background-image: url("/images/news-wallpaper.jpg");
   border-bottom: solid 6px olivedrab;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
