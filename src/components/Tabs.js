@@ -8,6 +8,7 @@ import Box from '@material-ui/core/Box';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import HourglassEmptyIcon from '@material-ui/icons/HourglassEmpty';
 import SpeedIcon from '@material-ui/icons/Speed';
+import './Tabs.css';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -78,21 +79,18 @@ export default function VerticalTabs() {
       </Tabs>
       <TabPanel value={value} index={0}>
         <img src="/images/towertest.png" alt="" />
-        <br/>
-        Destructive tours have the most powerful damage since its attacks
-        have an area effect but is very slow.
+        <p>Destructive tours have the most powerful damage since its attacks
+        have an area effect but is very slow.</p>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <img src="/images/towertest2.jpg" alt="" />
-        <br/>
-        Slowing towers are the most adapted if the enemy is strong
-        or is fast. At strategic places, this tower can totally make the game.
+        <p>Slowing towers are the most adapted if the enemy is strong
+        or is fast. At strategic places, this tower can totally make the game.</p>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <img src="/images/towertest3.jpeg" alt="" />
-        <br/>
-        Fast attacks towers is essential for fast and weak enemy as they can kill them
-        quicly. However, they only posess single targeted enemy and week attacks.
+        <p>Fast attacks towers is essential for fast and weak enemy as they can kill them
+        quicly. However, they only posess single targeted enemy and week attacks.</p>
       </TabPanel>
     </div>
   );

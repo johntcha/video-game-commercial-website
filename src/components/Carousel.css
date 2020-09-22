@@ -1,0 +1,9 @@
+li.slide {
+    color: white;
+}
+
+@media screen and (min-width: 961px) {
+	.carousel-wrapper {
+    	display: none;
+	}
+}

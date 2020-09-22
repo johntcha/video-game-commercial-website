@@ -1,0 +1,29 @@
+@media screen and (max-width: 960px) {
+	.makeStyles-root-1 {
+	    display: none!important;
+	}	
+}
+
+.MuiTabs-root {
+    overflow: unset!important;
+}
+
+button#vertical-tab-0 {
+    background: darkorange;
+}
+
+button#vertical-tab-1 {
+    background: darkseagreen;
+}
+
+button#vertical-tab-2 {
+    background: darkslateblue;
+}
+
+button#vertical-tab-0, button#vertical-tab-1 {
+    margin-bottom: 30px!important;
+}
+
+.makeStyles-root-1 {
+    height: 100%!important;
+}

@@ -11,3 +11,7 @@ h2{
 img{
 	height: 200px;
 }
+
+.game_wrapper {
+    padding-top: 50px;
+}

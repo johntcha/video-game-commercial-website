@@ -55,7 +55,6 @@
 }
 
 .social-media {
-	max-width: 1000px;
 	width: 100%;
 }
 
@@ -78,18 +77,15 @@
 .social-logo {
 	color: #fff;
 	justify-self: start;
-	margin-left: 20px;
 	cursor: pointer;
 	text-decoration: none;
 	font-size: 2rem;
 	display: flex;
 	align-self: center;
-	margin-bottom: 16px;
 }
 
 .website-rights {
 	color: #fff;
-	margin-bottom: 16px;
 }
 
 i.fab.fa-facebook-f:hover, i.fab.fa-instagram:hover, i.fab.fa-youtube:hover, i.fab.fa-twitter:hover {
