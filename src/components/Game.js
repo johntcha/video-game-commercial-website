@@ -10,7 +10,10 @@ function Game(){
 			<div className="game_wrapper">
 				<Tabs />
 			</div>
-
+			<h2>UNITIES</h2>
+			<div className="unity_wrapper">
+				Unities here
+			</div>
 			<CarouselComponent />
 		</div>
 		)
