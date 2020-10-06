@@ -1,7 +1,9 @@
 .game {
+  color: white;
   padding: 4rem;
   background: #fff;
   border-bottom: solid 6px olivedrab;
+  background-image: url("/images/green_network.jpg");
 }
 
 h2{

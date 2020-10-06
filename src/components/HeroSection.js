@@ -12,7 +12,9 @@ function HeroSection() {
 				<div className="hero-btns">
 					<Button className='btns' buttonStyle ='btn--outline'
 					buttonSize='btn--large'>
+					<span aria-hidden="true">GET STARTED</span>
 					GET STARTED
+					<span aria-hidden="true">GET STARTED</span>
 					</Button>
 					<Button className='btns' buttonStyle ='btn--primary'
 					buttonSize='btn--large'>

@@ -14,10 +14,11 @@ button#vertical-tab-0, button#vertical-tab-1, button#vertical-tab-2 {
 
 .makeStyles-root-1 {
     height: 100%!important;
+    background: none!important;
 }
 
 button:hover{
-	background: #ec0b36 url("/images/pixel.png");
+	background: #4ECD2B url("/images/pixel.png");
 	transition-delay: 0.8s;
 	background-size: 180px;
 	animation: animate 0.8s steps(8) forwards;

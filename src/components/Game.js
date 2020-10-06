@@ -9,12 +9,13 @@ function Game(){
 			<h2>TOWERS</h2>
 			<div className="game_wrapper">
 				<Tabs />
+				<CarouselComponent />
 			</div>
 			<h2>UNITIES</h2>
 			<div className="unity_wrapper">
 				Unities here
 			</div>
-			<CarouselComponent />
+			
 		</div>
 		)
 }
