@@ -1,5 +1,6 @@
 import React from 'react';
 import Tabs from './Tabs';
+import HorizontalTab from './HorizontalTab';
 import './Game.css';
 import CarouselComponent from "./Carousel";
 
@@ -26,7 +27,18 @@ function Game(){
 			</div>
 			<h2>UNITIES</h2>
 			<div className="unity_wrapper">
-				Unities here
+				<HorizontalTab />
+				<CarouselComponent 
+				first_h2="Gros stokos"
+				second_h2="Petit rapide"
+				third_h2="Runner"
+				first_p="Lent mais fort"
+				second_p="Faible mais speed."
+				third_p="Costaud et allure moyenne."
+        		img1="/images/broly.png"
+        		img2="/images/peon.jpg"
+        		img3="/images/illidan.jpg"
+				 />
 			</div>
 			
 		</div>

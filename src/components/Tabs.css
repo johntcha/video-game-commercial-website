@@ -2,6 +2,9 @@
 	.makeStyles-root-1 {
 	    display: none!important;
 	}	
+	.makeStyles-root-9 {
+		display: none;
+	}
 }
 
 .MuiTabs-root {
@@ -17,8 +20,15 @@ button#vertical-tab-0, button#vertical-tab-1, button#vertical-tab-2 {
     background: none!important;
 }
 
-button:hover{
+.game_wrapper button:hover{
 	background: #4ECD2B url("/images/pixel.png");
+	transition-delay: 0.8s;
+	background-size: 180px;
+	animation: animate 0.8s steps(8) forwards;
+}
+
+.unity_wrapper button:hover{
+	background: #730bec url("/images/pixel2.png");
 	transition-delay: 0.8s;
 	background-size: 180px;
 	animation: animate 0.8s steps(8) forwards;
@@ -33,4 +43,8 @@ button:hover{
 	{
 		background-position-y:-480px; 
 	}
+}
+
+.MuiAppBar-colorDefault {
+    background-color: transparent;
 }
