@@ -28,7 +28,7 @@ button#vertical-tab-0, button#vertical-tab-1, button#vertical-tab-2 {
 }
 
 .unity_wrapper button:hover{
-	background: #730bec url("/images/pixel2.png");
+	background: #730bec url("/images/pixel3.png");
 	transition-delay: 0.8s;
 	background-size: 180px;
 	animation: animate 0.8s steps(8) forwards;
@@ -46,5 +46,6 @@ button#vertical-tab-0, button#vertical-tab-1, button#vertical-tab-2 {
 }
 
 .MuiAppBar-colorDefault {
-    background-color: transparent;
+    color: white!important;
+    background-color: transparent!important;
 }

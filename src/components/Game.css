@@ -17,4 +17,6 @@ img{
 .game_wrapper, .unity_wrapper {
     padding: 50px;
     text-align: center;
+    color: white!important;
 }
+
