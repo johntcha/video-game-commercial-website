@@ -8,22 +8,28 @@
     overflow: unset!important;
 }
 
-button#vertical-tab-0 {
-    background: darkorange;
-}
-
-button#vertical-tab-1 {
-    background: darkseagreen;
-}
-
-button#vertical-tab-2 {
-    background: darkslateblue;
-}
-
-button#vertical-tab-0, button#vertical-tab-1 {
-    margin-bottom: 30px!important;
+button#vertical-tab-0, button#vertical-tab-1, button#vertical-tab-2 {
+    height: 100px;
 }
 
 .makeStyles-root-1 {
     height: 100%!important;
+}
+
+button:hover{
+	background: #ec0b36 url("/images/pixel.png");
+	transition-delay: 0.8s;
+	background-size: 180px;
+	animation: animate 0.8s steps(8) forwards;
+}
+
+@keyframes animate{
+	0%
+	{
+		background-position-y: 0; 
+	}
+	100%
+	{
+		background-position-y:-480px; 
+	}
 }

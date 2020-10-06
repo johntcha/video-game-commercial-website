@@ -73,9 +73,9 @@ export default function VerticalTabs() {
         aria-label="Vertical tabs example"
         className={classes.tabs}
       >
-        <Tab icon={<WhatshotIcon />} label="Destruction" {...a11yProps(0)} />
-        <Tab icon={<HourglassEmptyIcon />} label="Slow" {...a11yProps(1)} />
-        <Tab icon={<SpeedIcon />} label="Fast" {...a11yProps(2)} />
+        <Tab label="Destruction" {...a11yProps(0)} />
+        <Tab label="Slow" {...a11yProps(1)} />
+        <Tab label="Fast" {...a11yProps(2)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <img src="/images/towertest.png" alt="" />
