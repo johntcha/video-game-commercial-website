@@ -12,11 +12,17 @@ h2{
 
 img{
 	height: 200px;
+  position: relative;
 }
 
 .game_wrapper, .unity_wrapper {
     padding: 50px;
     text-align: center;
     color: white!important;
+}
+
+canvas.tsparticles-canvas-el {
+    position: absolute;
+    right: 0;
 }
 

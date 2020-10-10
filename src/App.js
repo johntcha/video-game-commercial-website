@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Product from './components/pages/Product';
 import SignUp from './components/pages/SignUp';
 import Services from './components/pages/Services';
+import Particles from 'react-particles-js';
 
 function App() {
   return (

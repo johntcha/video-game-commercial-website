@@ -72,12 +72,15 @@ export default function HorizontalTab() {
       </AppBar>
         <TabPanel value={value} index={0}>
           <img src="/images/broly.png" alt="" />
+          <p>Lent mais fort</p>
         </TabPanel>
         <TabPanel value={value} index={1}>
           <img src="/images/peon.jpg" alt="" />
+          <p>Faible mais speed.</p>
         </TabPanel>
         <TabPanel value={value} index={2}>
           <img src="/images/illidan.jpg" alt="" />
+          <p>Costaud et allure moyenne.</p>
         </TabPanel>
     </div>
   );
