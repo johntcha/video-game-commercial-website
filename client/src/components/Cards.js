@@ -13,13 +13,13 @@ function Cards() {
 					src="images/roi-liche.jpg"
 					text="Le Roi Liche débarque sur Tower Defense"
 					label="Event"
-					path="/sign-up"
+					path="/"
 					/>
 					<CardItem 
 					src="images/nerubian-tower.jpg"
 					text="Les dégats des tours de glace ont été augmenté"
 					label="Patch 1.0.2"
-					path="/products"
+					path="/login"
 					/>
 					<CardItem 
 					src="images/nerubian-tower.jpg"

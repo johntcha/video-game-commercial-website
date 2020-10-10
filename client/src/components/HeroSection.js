@@ -11,7 +11,7 @@ function HeroSection() {
 				<p>Let's play right now for free</p>
 				<div className="hero-btns">
 					<Button className='btns' buttonStyle ='btn--outline'
-					buttonSize='btn--large'>
+					buttonSize='btn--large' buttonLink='/sign-up'>
 					<span aria-hidden="true">GET STARTED</span>
 					GET STARTED
 					<span aria-hidden="true">GET STARTED</span>

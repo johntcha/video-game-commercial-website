@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
-import Product from './components/pages/Product';
+import Logins from './components/pages/Log-in';
 import SignUp from './components/pages/SignUp';
 import Services from './components/pages/Services';
 import Particles from 'react-particles-js';
@@ -20,11 +20,11 @@ function App() {
          <Switch>
          	<Route path='/' exact component=
           {Home} />
-          <Route path='/products' component={Product} />
-          <Route path='/sign-up' component={SignUp} />
+          // <Route path='/logins' component={Login} />
+          // <Route path='/sign-up' component={SignUp} />
           <Route path='/services' component={Services} />
 
-          <Route exact path="/login" component={Login} />
+          <Route exact path="/login" component={Logins} />
           <Route exact path="/signup" component={Signup} />
           <PrivateRoute path="/dashboard" component={Dashboard} />
          </Switch>

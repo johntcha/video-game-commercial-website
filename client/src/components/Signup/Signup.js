@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import API from "../../utils/API";
+import "./Signup.css";
 
 export class Signup extends React.Component {
   state = {
@@ -10,8 +11,12 @@ export class Signup extends React.Component {
   };
   send = async () => {
     const { email, password, cpassword } = this.state;
-    if (!email || email.length === 0) return;
-    if (!password || password.length === 0 || password !== cpassword) return;
+    if (!email || email.length === 0){
+      alert("Please enter an email address");
+    } ;
+    if (!password || password.length === 0 || password !== cpassword){
+      alert("The password sections must not be empty");
+    };
     try {
       const { data } = await API.signup({ email, password });
       localStorage.setItem("token", data.token);

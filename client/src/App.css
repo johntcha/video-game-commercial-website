@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.login,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -25,11 +25,14 @@
   font-size: 100px;
 }
 
-.products {
+.login-back{
   background-image: url('/images/sekiro.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.login {
+  /*background-image: url('/images/sekiro.jpg');*/
   color: #fff;
   font-size: 100px;
 }
