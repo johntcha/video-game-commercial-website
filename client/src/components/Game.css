@@ -3,9 +3,8 @@
   padding: 4rem;
   background: #fff;
   border-bottom: solid 6px olivedrab;
-  /*background-image: url("/images/green_network.jpg");*/
-  background: rgb(9,121,35);
-  background: linear-gradient(180deg, rgba(9,121,35,1) 14%, rgba(109,214,101,1) 100%);
+  background-image: url("/images/pixels.jpg");
+  
 }
 
 h2{

@@ -18,6 +18,13 @@ button#vertical-tab-0, button#vertical-tab-1, button#vertical-tab-2 {
 .makeStyles-root-1 {
     height: 100%!important;
     background: none!important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.75)!important;
+}
+
+.makeStyles-root-9 {
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.75);
 }
 
 .game_wrapper button:hover{
@@ -48,4 +55,10 @@ button#vertical-tab-0, button#vertical-tab-1, button#vertical-tab-2 {
 .MuiAppBar-colorDefault {
     color: white!important;
     background-color: transparent!important;
+}
+
+.MuiButtonBase-root{
+	filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.75);
 }

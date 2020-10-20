@@ -1,0 +1,15 @@
+.dashboard{
+	text-align: center;
+}
+
+.h1_dash{
+	color: #000;
+}
+.avatar{
+	border-radius: 50%;
+}
+
+.disconnect{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

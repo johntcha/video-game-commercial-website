@@ -14,11 +14,12 @@ function Footer() {
 				Get the Beta version and get 5 free skins !
 			</p>
 			<div className="input-areas">
-				<form>
-					<input type="email" name="email" placeholder="Your Email"
-					className="footer-input" />
-					<Button buttonStyle='btn--outline'>Subscribe</Button>
-				</form>
+				<div className="but_footer">
+					<Button 
+					buttonLink='/login'
+					buttonStyle='btn--outline'>Subscribe</Button>
+				</div>
+					
 				<a
 				className="contactus"
 				href="https://docs.google.com/forms/d/1zOui1ikoEwQvya2ZTwQsE4G0MWylPt2hzeuQemoXxJ4/edit"
