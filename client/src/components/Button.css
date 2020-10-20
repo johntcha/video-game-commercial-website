@@ -2,7 +2,7 @@
 	--primary: #fff;
 }
 
-.btn {
+.btn, .contactus {
 	padding: 8px 20px;
 	border-radius: 2px;
 	outline: none;
@@ -16,7 +16,7 @@
 	border: 1px solid var(--primary);
 }
 
-.btn--outline {
+.btn--outline, .contactus {
 	background-color: transparent;
 	color: #fff;
 	padding: 8px 20px;
@@ -33,4 +33,14 @@
 	background: #fff;
 	color: #242424;
 	transition: all 0.3s ease-out;
+}
+
+.contactus{
+	text-decoration: none;
+}
+
+.contactus:hover{
+	transition: all 0.3s ease-out;
+	color: #000;
+	background-color: #fff;
 }

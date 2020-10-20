@@ -1,0 +1,16 @@
+.description-container {
+  color: white;
+  padding: 4rem;
+  background: #fff;
+  border-bottom: solid 6px olivedrab;
+  background-image: url("/images/green_network.jpg");
+  text-align: center;
+}
+
+.description-container > p {
+    padding: 20px;
+}
+
+.description-images > img {
+    padding: 20px;
+}

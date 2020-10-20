@@ -3,7 +3,9 @@
   padding: 4rem;
   background: #fff;
   border-bottom: solid 6px olivedrab;
-  background-image: url("/images/green_network.jpg");
+  /*background-image: url("/images/green_network.jpg");*/
+  background: rgb(9,121,35);
+  background: linear-gradient(180deg, rgba(9,121,35,1) 14%, rgba(109,214,101,1) 100%);
 }
 
 h2{
@@ -19,6 +21,13 @@ img{
     padding: 50px;
     text-align: center;
     color: white!important;
+    
+}
+
+.makeStyles-root-1 {
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.75);
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
 }
 
 canvas.tsparticles-canvas-el {

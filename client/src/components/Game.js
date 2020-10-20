@@ -17,7 +17,7 @@ function Game(){
                 enable: true, 
                 value_area: 2000, 
               }, 
-            }, 
+            },
           },
            
           interactivity: {

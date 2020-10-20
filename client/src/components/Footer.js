@@ -19,12 +19,18 @@ function Footer() {
 					className="footer-input" />
 					<Button buttonStyle='btn--outline'>Subscribe</Button>
 				</form>
+				<a
+				className="contactus"
+				href="https://docs.google.com/forms/d/1zOui1ikoEwQvya2ZTwQsE4G0MWylPt2hzeuQemoXxJ4/edit"
+				target="_blank">
+				Contact us</a>
+				
 			</div>
 			</section>
 			<section className="social-media">
 				<div className="social-media-wrap">
 					<div className="social-logo">
-						<Link to="" className="social-logo">
+						<Link to="/" className="social-logo">
 							TOWER DEFENSE
 						</Link>
 					</div>
