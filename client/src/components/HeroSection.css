@@ -66,13 +66,13 @@ video {
 		width: 100%;
 	}
 	button.btn.btn--outline.btn--large > span {
-	    left: 38px!important;
+	    left: 27px!important;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 820px){
 	button.btn.btn--outline.btn--large > span {
-	    left: 133px!important;
+	    left: 27px!important;
 	}
 	}
 

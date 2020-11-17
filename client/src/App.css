@@ -6,9 +6,10 @@
 }
 
 .home,
-.services,
+.maj1,
 .login,
-.sign-up {
+.sign-up,
+.event {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +17,7 @@
   font-size: 3rem;
 }
 
-.services {
+.maj1 {
   background-image: url('/images/orgrimmar.jpg');
   background-position: center;
   background-size: cover;
@@ -25,23 +26,41 @@
   font-size: 100px;
 }
 
-.login-back{
+.maj2 {
+  background-image: url('/images/icc.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  height: 400px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.smallone{
+  text-align: center;
+}
+
+.event {
+  background-image: url('/images/roi-liche1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/*.login-back{
   background-image: url('/images/sekiro.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .login {
-  /*background-image: url('/images/sekiro.jpg');*/
+  background-image: url('/images/sekiro.jpg');
   color: #fff;
   font-size: 100px;
 }
-
-.sign-up {
-  background-image: url('/images/icc.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+*/

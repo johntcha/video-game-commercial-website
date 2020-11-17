@@ -4,7 +4,7 @@ import './Description.css';
 
 function Description(){
 	return(
-			<div className="description-container">
+			<div className="description-container" id="description">
 			<h1>TOWER DEFENSE IS WAITING FOR YOUR HACKING</h1>
 			<p>Protect your computers from other hackers and send your best virus
 			to destroy all your enemies computers

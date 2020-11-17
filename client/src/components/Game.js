@@ -8,7 +8,7 @@ import Particles from 'react-particles-js';
 function Game(){
 	return(
 		<div className="game">
-		        <Particles 
+		{/*        <Particles 
         params={{ 
           particles: { 
             number: { 
@@ -34,9 +34,9 @@ function Game(){
               resize: true,
             },}
         }} 
-      /> 
+      /> */}
 			<h2>TOWERS</h2>
-			<div className="game_wrapper">
+			<div className="game_wrapper" id="towers">
 				<Tabs />
 				<CarouselComponent 
 				first_h2="Destruction Tower pawaaaa"
@@ -54,7 +54,7 @@ function Game(){
 				 />
 			</div>
 			<h2>UNITIES</h2>
-			<div className="unity_wrapper">
+			<div className="unity_wrapper" id="unities">
 				<HorizontalTab />
 				<CarouselComponent 
 				first_h2="KAKAROTTOOOO"

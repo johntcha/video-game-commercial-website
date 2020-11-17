@@ -4,7 +4,7 @@ import './Cards.css';
 
 function Cards() {
     return (
-        <div className="cards">
+        <div className="cards" id="news">
 		<h1>Actualités</h1>
 		<div className="cards__container">
 			<div className="cards__wrapper">
@@ -13,19 +13,19 @@ function Cards() {
 					src="images/roi-liche.jpg"
 					text="Le Roi Liche débarque sur Tower Defense"
 					label="Event"
-					path="/"
+					path="/event"
 					/>
 					<CardItem 
 					src="images/nerubian-tower.jpg"
 					text="Les dégats des tours de glace ont été augmenté"
 					label="Patch 1.0.2"
-					path="/login"
+					path="/maj2"
 					/>
 					<CardItem 
 					src="images/nerubian-tower.jpg"
 					text="Les tours de glace ralentissent moins"
 					label="Patch 1.0.1"
-					path="/services"
+					path="/maj1"
 					/>
 					
 				</ul>

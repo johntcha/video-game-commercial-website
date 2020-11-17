@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
 	return (
-		<div className='footer-container'>
+		<div className='footer-container' id="footer">
 			<section className='footer-subscription'>
 			<p className='footer-subscription-heading'>
 				Join the adventure now
@@ -14,11 +14,11 @@ function Footer() {
 				Get the Beta version and get 5 free skins !
 			</p>
 			<div className="input-areas">
-				<div className="but_footer">
+				{/*<div className="but_footer">
 					<Button 
 					buttonLink='/login'
 					buttonStyle='btn--outline'>Subscribe</Button>
-				</div>
+				</div>*/}
 					
 				<a
 				className="contactus"
