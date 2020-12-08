@@ -73,22 +73,22 @@ export default function VerticalTabs() {
         aria-label="Vertical tabs example"
         className={classes.tabs}
       >
-        <Tab label="Destruction" {...a11yProps(0)} />
-        <Tab label="Slow" {...a11yProps(1)} />
-        <Tab label="Fast" {...a11yProps(2)} />
+        <Tab label="By the power of the Chip !" {...a11yProps(0)} />
+        <Tab label="LED slowing power !" {...a11yProps(1)} />
+        <Tab label="Resistance is fast" {...a11yProps(2)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <img src="/images/towertest.png" alt="" />
+        <img src="/images/ship.png" alt="marche pas" />
         <p>Destructive tours have the most powerful damage since its attacks
         have an area effect but is very slow.</p>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <img src="/images/towertest2.jpg" alt="" />
+        <img src="/images/led.png" alt="" />
         <p>Slowing towers are the most adapted if the enemy is strong
         or is fast. At strategic places, this tower can totally make the game.</p>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <img src="/images/towertest3.jpeg" alt="" />
+        <img src="/images/resistance.png" alt="" />
         <p>Fast attacks towers is essential for fast and weak enemy as they can kill them
         quicly. However, they only posess single targeted enemy and week attacks.</p>
       </TabPanel>

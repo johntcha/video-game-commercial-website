@@ -65,22 +65,22 @@ export default function HorizontalTab() {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          <Tab label="KAKAROTTOOOO" {...a11yProps(0)} />
-          <Tab label="Encore du travail?" {...a11yProps(1)} />
-          <Tab label="Vous n'êtes pas pret" {...a11yProps(2)} />
+          <Tab label="Big spider" {...a11yProps(0)} />
+          <Tab label="Baby spider" {...a11yProps(1)} />
+          <Tab label="Trojan horse" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
         <TabPanel value={value} index={0}>
-          <img src="/images/broly.png" alt="" />
-          <p>Lent mais fort</p>
+          <img src="/images/bug.png" alt="" />
+          <p>Balanced bug</p>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <img src="/images/peon.jpg" alt="" />
-          <p>Faible mais speed.</p>
+          <img src="/images/bugSmall.png" alt="" />
+          <p>Weak but fast bug</p>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <img src="/images/illidan.jpg" alt="" />
-          <p>Costaud et allure moyenne.</p>
+          <img src="/images/troy.png" alt="" />
+          <p>Strong but slow bug</p>
         </TabPanel>
     </div>
   );
