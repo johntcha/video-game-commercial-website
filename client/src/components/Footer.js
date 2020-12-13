@@ -14,11 +14,6 @@ function Footer() {
 				Get the Beta version and get 5 free skins !
 			</p>
 			<div className="input-areas">
-				{/*<div className="but_footer">
-					<Button 
-					buttonLink='/login'
-					buttonStyle='btn--outline'>Subscribe</Button>
-				</div>*/}
 					
 				<a
 				className="contactus"
@@ -32,10 +27,10 @@ function Footer() {
 				<div className="social-media-wrap">
 					<div className="social-logo">
 						<Link to="/" className="social-logo">
-							TOWER DEFENSE
+							A.P.P
 						</Link>
 					</div>
-					<small className="website-rights">TOWER DEFENSE © 2020</small>
+					<small className="website-rights">A.P.P © 2020</small>
 					<div className="social-icons">
 						<Link className="social-icon-link facebook"
 						to="/"

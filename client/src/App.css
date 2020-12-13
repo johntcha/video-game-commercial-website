@@ -17,17 +17,22 @@
   font-size: 3rem;
 }
 
+
 .maj1 {
-  background-image: url('/images/orgrimmar.jpg');
+  background-image: url('/images/beta.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  filter: blur(4px);
+  height: 400px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .maj2 {
-  background-image: url('/images/icc.jpg');
+  background-image: url('/images/led.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,26 +46,67 @@
 
 .smallone{
   text-align: center;
+  padding-top: 50px;
+  height: 400px;
 }
 
 .event {
-  background-image: url('/images/roi-liche1.jpg');
+  background-image: url('/images/sombra.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  filter: blur(4px);
+  height: 400px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
 }
 
-/*.login-back{
-  background-image: url('/images/sekiro.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.all_blacks{
+  background-color: black;
+  height: 900px;
 }
-.login {
-  background-image: url('/images/sekiro.jpg');
-  color: #fff;
-  font-size: 100px;
+
+.example{
+  color:white;
+  padding: 50px 250px 50px 250px;
 }
-*/
+
+@media screen and (max-width: 800px){
+  .example{
+  padding: 10px;
+}
+}
+
+.trailer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.trailer-container{
+  background-color: black;
+  height: 900px;
+  color: white;
+  padding-top:50px;
+}
+
+.trailer_mobile{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+@media screen and (max-width:999px){
+.video{
+  display: none;
+}
+} 
+
+@media screen and (min-width:1000px){
+.mobile_video{
+  display: none
+}
+} 

@@ -1,7 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import HeaderNews from '../HeaderNews';
 
 export default function Event(){
-	return <h1 className="event">Event
-	</h1>;
+	return (
+	<HeaderNews
+	class="event"
+	title="Sombra from Overwatch is here !"
+	src ="/../images/sombra.jpeg" />
+	);
 };

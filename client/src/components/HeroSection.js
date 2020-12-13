@@ -8,12 +8,12 @@ function HeroSection() {
 			<div className='hero-container' id="hero-container">
 				
 				<img className="header_img" src="/images/header_img.gif" alt="header"/>
-				<h1>Let's play TOWER</h1>
+				<h1>Let's play Artificial Pirate Process</h1>
 				<p>Let's play right now for free</p>
 				<div className="hero-btns">
 					
 					<Button className='btns' buttonStyle ='btn--outline'
-					buttonSize='btn--large' buttonLink='/sign-up'>
+					buttonSize='btn--large' buttonLink='/video'>
 					<span aria-hidden="true">WATCH TRAILER</span>
 					WATCH TRAILER
 					<span aria-hidden="true">WATCH TRAILER</span>

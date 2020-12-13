@@ -5,26 +5,26 @@ import './Cards.css';
 function Cards() {
     return (
         <div className="cards" id="news">
-		<h1>Actualités</h1>
+		<h1>News</h1>
 		<div className="cards__container">
 			<div className="cards__wrapper">
 				<ul className="cards_items">
 					<CardItem 
-					src="images/roi-liche.jpg"
-					text="Le Roi Liche débarque sur Tower Defense"
+					src="images/sombra.jpeg"
+					text="Sombra from Overwatch is part of the party"
 					label="Event"
 					path="/event"
 					/>
 					<CardItem 
-					src="images/nerubian-tower.jpg"
-					text="Les dégats des tours de glace ont été augmenté"
-					label="Patch 1.0.2"
+					src="images/led.png"
+					text="LED damages have been increased"
+					label="Patch 1.0.1"
 					path="/maj2"
 					/>
 					<CardItem 
-					src="images/nerubian-tower.jpg"
-					text="Les tours de glace ralentissent moins"
-					label="Patch 1.0.1"
+					src="images/beta.png"
+					text="Beta A.P.P version coming early 2021 !"
+					label="BETA"
 					path="/maj1"
 					/>
 					
