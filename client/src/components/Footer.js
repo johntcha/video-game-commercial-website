@@ -8,10 +8,10 @@ function Footer() {
 		<div className='footer-container' id="footer">
 			<section className='footer-subscription'>
 			<p className='footer-subscription-heading'>
-				Join the adventure now
+				Join the adventure now !
 			</p>
 			<p className="footer-subscription-text">
-				Get the Beta version and get 5 free skins !
+				Get the Beta version and get free skins !
 			</p>
 			<div className="input-areas">
 					

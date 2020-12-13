@@ -11,9 +11,11 @@ function Description(){
 					<img src="/images/description2.jpg" alt="description" />
 				</div>
 			<p>Protect your computers from other hackers and send your best virus
-			to destroy all your enemies' computers
-			Earn Bitcoins by destroying viruses and use those Bitcoins
-			in order to create more complexes ones</p>
+			to destroy all your enemies' computers.
+			</p>
+			<p>
+			Earn money by destroying viruses and use these founds
+			in order to create more complexes programs</p>
 			<p>Don't let your opponent shut down your computer,
 			else, you will shut down</p>
 			</div>

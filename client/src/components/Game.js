@@ -32,9 +32,9 @@ function Game(){
 			<div className="unity_wrapper" id="unities">
 				<HorizontalTab />
 				<CarouselComponent 
-				first_h2="Bug"
-				second_h2="Small Bug"
-				third_h2="Troy"
+				first_h2="Spider"
+				second_h2="Small Spider"
+				third_h2="Trojan Horse"
 				first_p="Balanced bug"
 				second_p="Weak but fast bug"
 				third_p="Strong but slow bug"
